@@ -1,0 +1,28 @@
+//variables
+
+@import "../components/vars";
+@import "../components/mixin";
+/*----footer----*/
+.bg-footer {
+    background-color: $colorprincipal;
+    @include footer;
+}
+
+.type-white {
+    font-family: 'Poppins', sans-serif;
+    color: $colorcomplementario;
+}
+
+.redes a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color: $colorsecundario;
+}
+
+/*----fin de footer----*/

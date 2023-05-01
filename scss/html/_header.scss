@@ -1,0 +1,21 @@
+//variables
+
+@import "../components/vars";
+
+/*----header----*/
+
+.bg-header {
+    background-color: $colorprincipal;
+    margin-bottom: 10px;
+}
+
+.color-menu {
+    color: $colorcomplementario;
+}
+
+.color-menu:hover {
+    background-color: $colorsecundario;
+}
+
+
+/* fin de header */

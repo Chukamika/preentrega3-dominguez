@@ -1,0 +1,37 @@
+//variables
+
+@import "../components/vars";
+@import "../components/extend";
+
+/*----sobre nosotros main----*/
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorcomplementario;
+    color: #5c5d7e;
+    padding: 50px;
+    
+
+    img {
+        width: 40vw;
+        max-width: 90vw;
+        height: auto;
+        margin-right: 50px;
+        animation: mover-imagen 3s infinite alternate;
+    }
+
+   
+}
+.h1-nosotros {
+    @extend %h1;
+}
+
+.p-nosotros {
+    background-color: $colorsecundario;
+    padding: 20px;
+}
+
+
+/*----fin de sobre nosotros main----*/

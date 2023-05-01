@@ -1,0 +1,14 @@
+//variables
+
+@import "components/vars";
+
+// extend
+
+%h1 {text-align: center;
+    color: $colorcomplementario;
+    margin: 0px;
+    background-color: $colorprincipal;
+    padding: 20px;
+    width: 100%;
+
+}

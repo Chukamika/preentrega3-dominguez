@@ -1,0 +1,88 @@
+//variables
+
+@import "../components/vars";
+@import "../components/extend";
+
+/*----contacto main----*/
+
+.df-main-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.main-contacto {
+    width: 80vw;
+    margin: 10px 0;
+    background-color: $colorsecundario;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-contacto{
+    @extend %h1;
+}
+
+.h2-form {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contenido {
+    background: $colorcomplementario;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.estilo-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    color: #000;
+    text-align: center;
+    width: 300px;
+    font-weight: 600;
+}
+
+.input {
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10PX 0;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn-form {
+    outline: none;
+    color: $colorcomplementario;
+    border: none;
+    background-color: $colorprincipal;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    animation: mover-abajo 1.5s infinite alternate;
+}
+
+.btn-form:hover {
+    background-color: $colorsecundario;
+}
+
+/*----fin de contacto main----*/

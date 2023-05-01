@@ -1,0 +1,77 @@
+//variables
+
+@import "../components/vars";
+@import "../components/extend";
+
+/*----productos main----*/
+
+.h1-prod {
+    @extend %h1;
+}
+
+.h2-product {
+    text-align: center;
+}
+
+.df-main-prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.df-prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+    width: 70vw;
+    border-radius: 15px;
+    box-shadow: 16px 17px 18px -7px rgba(66, 66, 66, 0.73);
+    -webkit-box-shadow: 16px 17px 18px -7px rgba(66, 66, 66, 0.73);
+    -moz-box-shadow: 16px 17px 18px -7px rgba(66, 66, 66, 0.73);
+}
+
+.m-p-product {
+    margin: 15px;
+    text-align: center;
+}
+
+.w-img-prod {
+    width: 20vw;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.w-img-prod:hover {
+    scale: 1.05;
+}
+
+.boton-prod {
+    background-color: $colorprincipal;
+    padding: 10px 15px;
+    margin: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $colorcomplementario;
+}
+
+.boton-prod:hover {
+    background-color: $colorsecundario;
+}
+
+.df-boton-prod {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    animation: mover-abajo 1.5s infinite alternate;
+}
+
+
+
+/*----fin de productos main----*/

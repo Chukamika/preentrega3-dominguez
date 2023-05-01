@@ -1,0 +1,13 @@
+//variables
+
+@import "components/vars";
+
+//mixin
+
+@mixin footer {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+};

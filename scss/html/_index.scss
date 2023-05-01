@@ -1,0 +1,44 @@
+//variables
+
+@import "../components/vars";
+@import "../components/extend";
+
+
+/*----index main----*/
+
+.h1-index {
+    @extend %h1;
+}
+
+.h2-index {
+    text-align: center;
+    color: $colorcomplementario;
+    margin: 0;
+    background-color: $colorsecundario;
+    padding: 20px;
+}
+
+.index-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.index-gallery img {
+    width: 32%;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.index-gallery img:hover {
+    scale: 1.05;
+}
+
+.p-index {
+    background-color: $colorsecundario;
+    padding: 20px;
+    text-align: center;
+}
+
+/*----fin de index main----*/
