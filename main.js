@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const deMoneda = deMonedaSelect.value.toUpperCase();
     const aMoneda = aMonedaSelect.value.toUpperCase();
-    const cantidad = parseFloat(cantidadInput.value); // Cambiado a parseFloat para aceptar decimales
+    const cantidad = parseFloat(cantidadInput.value); 
 
     const monedaOrigen = monedasJSON.find((moneda) => moneda.abreviatura === deMoneda);
     const monedaDestino = monedasJSON.find((moneda) => moneda.abreviatura === aMoneda);
